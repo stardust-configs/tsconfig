@@ -1,0 +1,21 @@
+{
+  "name": "@stardust-configs/tsconfig",
+  "version": "0.1.0",
+  "description": "Shareable TypeScript config",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/stardust-configs/tsconfig#readme",
+  "bugs": "https://github.com/stardust-configs/tsconfig/issues",
+  "license": "MIT",
+  "author": "P-Chan",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stardust-configs/tsconfig.git"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}
