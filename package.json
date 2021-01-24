@@ -10,6 +10,14 @@
   "bugs": "https://github.com/stardust-configs/tsconfig/issues",
   "license": "MIT",
   "author": "P-Chan",
+  "files": [
+    "base.json",
+    "next.json",
+    "node12.json",
+    "node14.json",
+    "recommended.json",
+    "tsconfig.json"
+  ],
   "main": "tsconfig.json",
   "repository": {
     "type": "git",
