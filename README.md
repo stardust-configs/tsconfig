@@ -151,6 +151,16 @@ $ yarn release
 $ npm publish
 ```
 
+## FAQ
+
+### How decided `target` of `nodexx.json`?
+
+Reference [Node Target Mapping · microsoft/TypeScript Wiki](https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping).
+
+### Why `compilerOptions` contains uppercase letters?
+
+I know that developers are generally written in lowercase only. However, [JSON Schema](https://json.schemastore.org/tsconfig) contains uppercase letters.
+
 ## Author
 
 [@p-chan](https://github.com/p-chan)
