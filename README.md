@@ -72,6 +72,20 @@ Edit `tsconfig.json`.
 Override `tsconfig.json`.
 
 <details>
+<summary><code>declaration</code></summary>
+
+```jsonc
+{
+  "extends": "@stardust-configs/tsconfig",
+  "compilerOptions": {
+    "declaration": true
+  }
+}
+```
+
+</details>
+
+<details>
 <summary><code>outDir</code> & <code>baseUrl</code></summary>
 
 ```jsonc
