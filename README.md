@@ -146,25 +146,6 @@ Override `tsconfig.json`.
 
 </details>
 
-## Publish a new version
-
-```bash
-# Write token to .env file
-$ echo "CONVENTIONAL_GITHUB_RELEASER_TOKEN=\"[GITHUB_TOKEN]\"" > .env
-
-# Bump version
-$ yarn run version
-
-# Push to GitHub
-$ git push --follow-tags origin master
-
-# Create a new release
-$ yarn release
-
-# Publish to npm
-$ npm publish
-```
-
 ## FAQ
 
 ### How decided `target` of `nodexx.json`?
