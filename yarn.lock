@@ -44,7 +44,7 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@stardust-configs/json-schema-validator@^0.4.0":
+"@stardust-configs/json-schema-validator@0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@stardust-configs/json-schema-validator/-/json-schema-validator-0.4.0.tgz#2dc52f6f26fd8e8ac672c7c5105abff3ee2bce91"
   integrity sha512-UoLQdR51NwhTJ4FZwdA4lNotNjXO0ABfvP+yg3aVby2Up2Jo1ca+gKo6LM1CA7Hcse4yDY5Jn6QzC3kKV+lhUQ==
