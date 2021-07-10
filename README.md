@@ -61,7 +61,9 @@ Edit `tsconfig.json`.
 
 ```jsonc
 {
-  "extends": "@stardust-configs/tsconfig/next.json"
+  "extends": "@stardust-configs/tsconfig/next.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }
 ```
 
