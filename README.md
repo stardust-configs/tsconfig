@@ -74,27 +74,12 @@ Edit `tsconfig.json`.
 Override `tsconfig.json`.
 
 <details>
-<summary><code>declaration</code></summary>
+<summary><code>baseUrl</code></summary>
 
 ```jsonc
 {
   "extends": "@stardust-configs/tsconfig",
   "compilerOptions": {
-    "declaration": true
-  }
-}
-```
-
-</details>
-
-<details>
-<summary><code>outDir</code> & <code>baseUrl</code></summary>
-
-```jsonc
-{
-  "extends": "@stardust-configs/tsconfig",
-  "compilerOptions": {
-    "outDir": "./dist",
     "baseUrl": "./"
   }
 }
@@ -111,7 +96,8 @@ Override `tsconfig.json`.
   "compilerOptions": {
     "paths": {
       "@foo/*": ["./src/foo/*"],
-      "@bar/*": ["./src/bar/*"]
+      "@bar/*": ["./src/bar/*"],
+      "@baz/*": ["./src/baz/*"]
     }
   }
 }
@@ -134,14 +120,55 @@ Override `tsconfig.json`.
 </details>
 
 <details>
-<summary><code>experimentalDecorators</code> & <code>emitDecoratorMetadata</code></summary>
+<summary><code>declaration</code></summary>
 
 ```jsonc
 {
   "extends": "@stardust-configs/tsconfig",
   "compilerOptions": {
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "declaration": true
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><code>outDir</code></summary>
+
+```jsonc
+{
+  "extends": "@stardust-configs/tsconfig",
+  "compilerOptions": {
+    "outDir": "./dist"
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><code>noEmit</code></summary>
+
+```jsonc
+{
+  "extends": "@stardust-configs/tsconfig",
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><code>plugins</code></summary>
+
+```jsonc
+{
+  "extends": "@stardust-configs/tsconfig",
+  "compilerOptions": {
+    "plugins": [{ "name": "foo" }, { "name": "bar" }, { "name": "baz" }]
   }
 }
 ```
