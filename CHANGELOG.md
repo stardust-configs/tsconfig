@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/stardust-configs/tsconfig/compare/v0.2.0...v0.3.0) (2022-10-27)
+
+
+### Features
+
+* add node18 ([0cd7c74](https://github.com/stardust-configs/tsconfig/commit/0cd7c74dd48e1c4aa4bbf1ee390ac589b9f8fb16))
+
 ## [0.2.0](https://github.com/stardust-configs/tsconfig/compare/v0.1.1...v0.2.0) (2021-11-03)
 
 
