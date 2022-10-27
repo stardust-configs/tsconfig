@@ -16,6 +16,7 @@
     "node12.json",
     "node14.json",
     "node16.json",
+    "node18.json",
     "recommended.json",
     "tsconfig.json"
   ],
@@ -25,7 +26,7 @@
     "url": "https://github.com/stardust-configs/tsconfig.git"
   },
   "scripts": {
-    "validate": "jsv \"base.json\" \"next.json\" \"node12.json\" \"node14.json\" \"node16.json\" \"recommended.json\" \"tsconfig.json\" --schema \"https://json.schemastore.org/tsconfig\"",
+    "validate": "jsv \"base.json\" \"next.json\" \"node12.json\" \"node14.json\" \"node16.json\" \"node18.json\" \"recommended.json\" \"tsconfig.json\" --schema \"https://json.schemastore.org/tsconfig\"",
     "version:major": "standard-version -r major",
     "version:minor": "standard-version -r minor",
     "version:patch": "standard-version -r patch"

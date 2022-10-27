@@ -68,6 +68,17 @@ Edit `tsconfig.json`.
 </details>
 
 <details>
+<summary>Node.js v18</summary>
+
+```jsonc
+{
+  "extends": "@stardust-configs/tsconfig/node18.json"
+}
+```
+
+</details>
+
+<details>
 <summary>Next.js</summary>
 
 ```jsonc
